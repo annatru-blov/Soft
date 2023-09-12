@@ -1,0 +1,118 @@
+.using_wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.using_text {
+    font-size: 30px;
+    max-width: 644px;
+}
+
+.using_subtext {
+    margin-top: 4%;
+    max-width: 644px;
+    font-size: 16px;
+}
+
+.using_rectangle {
+    width: 242px;
+    height: 192px;
+    border: 100px solid #D9D9D9;
+}
+
+.subtext_two {
+    max-width: 515px;
+    font-size: 20px;
+}
+
+.wrapper_block_one {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20%;
+}
+
+.using_rectangletwo {
+    width: 353px;
+    height: 98px;
+    border: 100px solid #D9D9D9;
+}
+
+.wrapper_block_two {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20%;
+}
+
+@media screen and (max-width: 767px) {
+    .using_wrapper {
+      
+        margin-bottom: 0;
+    }
+    .wrapper_block_one {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20%;
+    }
+
+    .wrapper_block_two {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 20%;
+    }
+
+    .using_text {
+        font-size: 15px;
+        max-width: 200px;
+        margin-top: 20px;
+        margin: 40px auto 0;
+    }
+
+    .using_subtext {
+        margin-top: 20px;
+        max-width: 200px;
+        font-size: 16px;
+        display: none;
+    }
+
+    .subtext_two {
+        max-width: 200px;
+        font-size: 16px;
+        margin: 0 auto 30px auto;
+    }
+
+    .using_rectangle {
+        margin: auto;
+        width: 100px;
+        height: 20px;
+    }
+
+    .using_rectangletwo {
+        margin: auto;
+        width: 100px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .using_subtext {
+       display: none;
+    }
+    .image_one{
+        width: 350px;
+        height: 200px;
+    }
+    .image_two{
+        width: 350px;
+        height: 200px;
+    }
+    .using_text {
+        font-size: 19px;
+        max-width: 600px;
+    }
+    .subtext_two {
+        max-width: 600px;
+        font-size: 19px;
+    }
+}
